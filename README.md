@@ -1,2 +1,1 @@
-# rick
-Command Line Tools for Kirby CMS
+# Rick (The Hamster)

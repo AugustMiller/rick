@@ -1,0 +1,14 @@
+{
+    "name": "rick/rick",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "August Miller",
+            "email": "hello@gusmiller.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "4.7.*"
+    }
+}

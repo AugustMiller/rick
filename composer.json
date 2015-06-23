@@ -7,6 +7,11 @@
             "email": "hello@gusmiller.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Rick\\": "src/"
+        }
+    },
     "require": {},
     "require-dev": {
       "phpunit/phpunit": "4.7.*"

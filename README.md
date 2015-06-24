@@ -1,6 +1,6 @@
 # Rick
 
-![](https://raw.githubusercontent.com/AugustMiller/rick/master/rick.png
+![](https://raw.githubusercontent.com/AugustMiller/rick/master/rick.png)
 
 [![Build Status](https://travis-ci.org/AugustMiller/rick.svg)](https://travis-ci.org/AugustMiller/rick)
 

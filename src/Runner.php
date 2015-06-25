@@ -2,12 +2,23 @@
 
 namespace Rick;
 
+use Rick\Server\Builtin;
+use Rick\Command\ServerCommand;
+
 class Runner
 {
-    public $directory;
+    public $application;
 
-    public function __construct($directory = null)
+    public function __construct($application)
     {
-        $this->directory = $directory;
+        $server = new \Rick\Server\Builtin();
+
+        $this->application = $application;
+        $this->application->add(new ServerCommand($server));
+    }
+
+    public function run()
+    {
+        return $this->application->run();
     }
 }
